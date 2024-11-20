@@ -1,0 +1,4 @@
+vllm
+uvicorn
+fastapi
+pydantic
