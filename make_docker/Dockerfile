@@ -1,6 +1,6 @@
 # 기본 이미지 : 우분투 환경에서 서빙을 해야하고 NVIDIA CUDA를 지원해야 함, 따라서 아래 주소에서 tag 선택 (python과 같은 기본 이미지 환경 선택시 이미지 구동 오류 발생)
 # https://hub.docker.com/r/nvidia/cuda/tags
-FROM nvidia/cuda:12.6.2-cudnn-devel-ubuntu20.04
+FROM nvidia/cuda:12.6.2-cudnn-devel-ubuntu22.04
 
 # 도커 컨테이너 기본 루트 디렉토리
 WORKDIR /app
